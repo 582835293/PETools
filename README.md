@@ -35,3 +35,5 @@ ctest --test-dir build -C Debug --output-on-failure
 测试用内存中构造的单节 PE32 验证头字段、RVA/FOA、文件/映像往返和代码节定位，并检查 C++ 链接。接口说明、缓冲区所有权和限制见 [API 文档](docs/api.md)。
 
 这是学习代码。现有接口多不带缓冲区长度，未完成畸形文件边界检查、PE32+ 支持和线程安全改造。公开展示不等同于增加开源许可证；本仓库尚未指定许可证。
+
+[构建与测试记录](docs/validation.md) · [GitHub Actions](https://github.com/582835293/PETools/actions)
