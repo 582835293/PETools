@@ -1,0 +1,4 @@
+<Solution>
+  <Configurations><Platform Name="x86" /></Configurations>
+  <Project Path="PETools.vcxproj" />
+</Solution>
